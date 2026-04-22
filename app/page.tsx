@@ -135,6 +135,10 @@ export default function Home() {
                   Kontakta oss
                 </a>
               </div>
+
+              <div className="mt-8 text-[13px] uppercase tracking-[0.24em] text-white/34">
+                Arbetar med företag i Sverige inom telekom, IT och affärsstöd
+              </div>
             </div>
 
             <div className="relative flex flex-col items-center justify-center text-center md:pt-10">
@@ -244,6 +248,49 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="border-b border-white/8 py-24 md:py-32">
+        <div className="mx-auto max-w-6xl px-8 md:px-12 xl:px-16">
+          <div className="mb-16">
+            <SectionLabel>Hur vi arbetar</SectionLabel>
+          </div>
+
+          <div className="grid gap-10 md:grid-cols-3">
+            <div>
+              <div className="mb-4 text-white/30">01</div>
+              <h3 className="mb-2 text-lg font-medium text-white">
+                Förstå behovet
+              </h3>
+              <p className="text-[17px] leading-8 text-white/60">
+                Vi börjar alltid med att förstå verksamheten, nuläget och vad som
+                faktiskt behöver förbättras.
+              </p>
+            </div>
+
+            <div>
+              <div className="mb-4 text-white/30">02</div>
+              <h3 className="mb-2 text-lg font-medium text-white">
+                Jämföra alternativ
+              </h3>
+              <p className="text-[17px] leading-8 text-white/60">
+                Flera leverantörer, flera lösningar – vi visar vad som skiljer och
+                vad som faktiskt spelar roll.
+              </p>
+            </div>
+
+            <div>
+              <div className="mb-4 text-white/30">03</div>
+              <h3 className="mb-2 text-lg font-medium text-white">
+                Implementera rätt lösning
+              </h3>
+              <p className="text-[17px] leading-8 text-white/60">
+                När beslutet är taget säkerställer vi att allt fungerar i
+                praktiken – inte bara på papper.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="border-b border-white/8">
         <div className="mx-auto max-w-[1280px] px-8 py-24 md:px-12 md:py-32 xl:px-16 xl:py-36">
           <div className="mb-14">
@@ -253,7 +300,7 @@ export default function Home() {
           <div className="grid gap-20 xl:grid-cols-[1.05fr_0.95fr]">
             <div>
               <h2 className="max-w-[760px] text-4xl font-semibold leading-[1.08] tracking-[-0.03em] text-white md:text-5xl">
-                En partner för företag som vill slippa gissa.
+                En partner för företag som vill fatta rätt beslut från början.
               </h2>
 
               <p className="mt-8 max-w-[760px] text-[19px] leading-9 text-white/72">
@@ -283,8 +330,9 @@ export default function Home() {
                   Flera leverantörer
                 </p>
                 <p className="mt-4 text-[17px] leading-8 text-white/68">
-                  Tillgång till flera av marknadens ledande operatörer och leverantörer genom etablerade samarbeten. 
-                  Det gör att lösningen kan anpassas efter verksamheten – inte tvärtom.
+                  Tillgång till flera av marknadens ledande operatörer och
+                  leverantörer genom etablerade samarbeten. Val av lösning utgår
+                  alltid från verksamhetens behov – inte från en enskild aktör.
                 </p>
               </div>
 
@@ -305,8 +353,8 @@ export default function Home() {
                   Tydligare väg framåt
                 </p>
                 <p className="mt-4 text-[17px] leading-8 text-white/68">
-                  Mindre tid på att jämföra, samordna och jaga svar. Mer tid på
-                  att driva verksamheten framåt.
+                  Mindre tid på att jämföra, samordna och jaga svar. Mer tid på att
+                  driva verksamheten framåt.
                 </p>
               </div>
 
@@ -316,8 +364,8 @@ export default function Home() {
                   Bättre affärer
                 </p>
                 <p className="mt-4 text-[17px] leading-8 text-white/68">
-                  Rätt lösning från början ger färre felköp, bättre flyt och en
-                  mer hållbar affär över tid.
+                  Rätt lösning från början ger färre felköp, bättre flyt och en mer
+                  hållbar affär över tid.
                 </p>
               </div>
             </div>
